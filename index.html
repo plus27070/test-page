@@ -17,11 +17,11 @@
       --white: #FFFFFF;
       --grey: #888888;
       --border: rgba(255,255,255,0.07);
-      --neon: #FF2D2D;
-      --neon2: #FF6B6B;
-      --neon-glow: rgba(255,45,45,0.65);
-      --neon-glow-soft: rgba(255,45,45,0.22);
-      --neon-glow-faint: rgba(255,45,45,0.08);
+      --neon: #FF2D6B;
+      --neon2: #FF79C6;
+      --neon-glow: rgba(255,45,107,0.65);
+      --neon-glow-soft: rgba(255,45,107,0.22);
+      --neon-glow-faint: rgba(255,45,107,0.08);
       --radius: 14px;
       --radius-sm: 8px;
     }
@@ -123,14 +123,14 @@
       top: 50%; left: 50%;
       transform: translate(-50%, -60%);
       width: 700px; height: 500px;
-      background: radial-gradient(ellipse, rgba(255,45,45,0.1) 0%, transparent 68%);
+      background: radial-gradient(ellipse, rgba(255,45,107,0.1) 0%, transparent 68%);
       pointer-events: none;
     }
     .hero-badge {
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      border: 1px solid rgba(255,45,45,0.45);
+      border: 1px solid rgba(255,45,107,0.45);
       color: var(--neon2);
       font-size: 11px;
       font-weight: 700;
@@ -233,13 +233,13 @@
     /* CARDS base */
     .neon-card-base {
       background: var(--bg2);
-      border: 1px solid rgba(255,45,45,0.18);
+      border: 1px solid rgba(255,45,107,0.18);
       border-radius: var(--radius);
       transition: all 0.25s;
     }
     .neon-card-base:hover {
-      border-color: rgba(255,45,45,0.48);
-      box-shadow: 0 0 22px rgba(255,45,45,0.1), 0 0 44px rgba(255,45,45,0.05);
+      border-color: rgba(255,45,107,0.48);
+      box-shadow: 0 0 22px rgba(255,45,107,0.1), 0 0 44px rgba(255,45,107,0.05);
       transform: translateY(-2px);
     }
 
@@ -247,7 +247,7 @@
     .points-grid { display: grid; gap: 12px; }
     .point-card {
       background: var(--bg2);
-      border: 1px solid rgba(255,45,45,0.18);
+      border: 1px solid rgba(255,45,107,0.18);
       border-radius: var(--radius);
       padding: 20px 22px;
       display: flex;
@@ -256,18 +256,18 @@
       transition: all 0.25s;
     }
     .point-card:hover {
-      border-color: rgba(255,45,45,0.5);
-      box-shadow: 0 0 20px rgba(255,45,45,0.1);
+      border-color: rgba(255,45,107,0.5);
+      box-shadow: 0 0 20px rgba(255,45,107,0.1);
       transform: translateX(4px);
     }
     .point-icon {
       width: 46px; height: 46px;
       border-radius: 10px;
-      border: 1px solid rgba(255,45,45,0.3);
-      background: rgba(255,45,45,0.07);
+      border: 1px solid rgba(255,45,107,0.3);
+      background: rgba(255,45,107,0.07);
       display: flex; align-items: center; justify-content: center;
       font-size: 20px; flex-shrink: 0;
-      box-shadow: 0 0 12px rgba(255,45,45,0.12);
+      box-shadow: 0 0 12px rgba(255,45,107,0.12);
     }
     .point-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 3px; }
     .point-card p { font-size: 13px; color: var(--grey); font-weight: 300; }
@@ -291,12 +291,12 @@
       font-weight: 900; font-size: 13px;
       display: flex; align-items: center; justify-content: center;
       flex-shrink: 0; z-index: 1;
-      box-shadow: 0 0 14px var(--neon-glow-soft), inset 0 0 10px rgba(255,45,45,0.07);
+      box-shadow: 0 0 14px var(--neon-glow-soft), inset 0 0 10px rgba(255,45,107,0.07);
       text-shadow: 0 0 8px var(--neon-glow);
     }
     .step-body {
       background: var(--bg2);
-      border: 1px solid rgba(255,45,45,0.18);
+      border: 1px solid rgba(255,45,107,0.18);
       border-radius: var(--radius);
       padding: 18px 20px;
       flex: 1;
@@ -305,13 +305,13 @@
     .step-body h3 { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
     .step-body p { font-size: 13px; color: var(--grey); font-weight: 300; }
     .step-warn {
-      border: 1px solid rgba(255,45,45,0.4);
+      border: 1px solid rgba(255,45,107,0.4);
       border-radius: var(--radius-sm);
       padding: 12px 16px;
       margin-top: 14px;
       display: flex;
       gap: 10px;
-      background: rgba(255,45,45,0.05);
+      background: rgba(255,45,107,0.05);
     }
     .step-warn p { font-size: 13px; color: var(--neon2); font-weight: 500; }
 
@@ -319,18 +319,18 @@
     .rules-grid { display: grid; gap: 12px; }
     .rule-card {
       background: var(--bg2);
-      border: 1px solid rgba(255,45,45,0.18);
+      border: 1px solid rgba(255,45,107,0.18);
       border-radius: var(--radius);
       padding: 22px;
     }
     .rule-card-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
     .rule-tag {
-      background: rgba(255,45,45,0.1);
+      background: rgba(255,45,107,0.1);
       color: var(--neon2);
       font-size: 10px; font-weight: 700;
       letter-spacing: 1.5px; text-transform: uppercase;
       padding: 4px 10px; border-radius: 2px;
-      border: 1px solid rgba(255,45,45,0.3);
+      border: 1px solid rgba(255,45,107,0.3);
     }
     .rule-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
     .rule-list li {
@@ -346,10 +346,10 @@
 
     .alert-box {
       background: #0a0a0a;
-      border: 1px solid rgba(255,45,45,0.5);
+      border: 1px solid rgba(255,45,107,0.5);
       border-radius: var(--radius);
       padding: 22px; margin-top: 12px;
-      box-shadow: 0 0 28px rgba(255,45,45,0.1), inset 0 0 30px rgba(255,45,45,0.03);
+      box-shadow: 0 0 28px rgba(255,45,107,0.1), inset 0 0 30px rgba(255,45,107,0.03);
       position: relative; overflow: hidden;
     }
     .alert-box::before {
@@ -372,9 +372,9 @@
     .penalty .p-tag {
       color: var(--neon2); font-weight: 700;
       padding: 2px 8px;
-      border: 1px solid rgba(255,45,45,0.35);
+      border: 1px solid rgba(255,45,107,0.35);
       border-radius: 2px; font-size: 11px;
-      box-shadow: 0 0 8px rgba(255,45,45,0.15);
+      box-shadow: 0 0 8px rgba(255,45,107,0.15);
     }
     .penalty .p-arrow { color: rgba(255,255,255,0.2); }
 
@@ -382,17 +382,17 @@
     .settle-list { display: grid; gap: 10px; }
     .settle-item {
       background: var(--bg2);
-      border: 1px solid rgba(255,45,45,0.15);
+      border: 1px solid rgba(255,45,107,0.15);
       border-radius: var(--radius-sm);
       padding: 16px 18px;
       display: flex; align-items: center; gap: 16px;
       transition: all 0.2s;
     }
-    .settle-item:hover { border-color: rgba(255,45,45,0.45); transform: translateX(4px); }
+    .settle-item:hover { border-color: rgba(255,45,107,0.45); transform: translateX(4px); }
     .settle-icon {
       width: 36px; height: 36px;
-      background: rgba(255,45,45,0.07);
-      border: 1px solid rgba(255,45,45,0.22);
+      background: rgba(255,45,107,0.07);
+      border: 1px solid rgba(255,45,107,0.22);
       border-radius: 8px;
       display: flex; align-items: center; justify-content: center;
       font-size: 16px; flex-shrink: 0;
@@ -403,14 +403,14 @@
     .activity-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
     .activity-card {
       background: var(--bg2);
-      border: 1px solid rgba(255,45,45,0.18);
+      border: 1px solid rgba(255,45,107,0.18);
       border-radius: var(--radius);
       padding: 22px 18px; text-align: center;
       transition: all 0.25s;
     }
     .activity-card:hover {
-      border-color: rgba(255,45,45,0.5);
-      box-shadow: 0 0 20px rgba(255,45,45,0.1);
+      border-color: rgba(255,45,107,0.5);
+      box-shadow: 0 0 20px rgba(255,45,107,0.1);
       transform: translateY(-3px);
     }
     .activity-card .a-icon { font-size: 26px; margin-bottom: 10px; }
@@ -421,23 +421,23 @@
     .forbidden-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
     .forbidden-item {
       background: var(--bg2);
-      border: 1px solid rgba(255,45,45,0.18);
+      border: 1px solid rgba(255,45,107,0.18);
       border-radius: var(--radius);
       padding: 22px 16px; text-align: center;
       transition: all 0.25s; cursor: default;
     }
     .forbidden-item:hover {
       border-color: var(--neon);
-      box-shadow: 0 0 22px rgba(255,45,45,0.15), inset 0 0 20px rgba(255,45,45,0.04);
+      box-shadow: 0 0 22px rgba(255,45,107,0.15), inset 0 0 20px rgba(255,45,107,0.04);
       transform: translateY(-2px);
     }
     .forbidden-item .f-icon { font-size: 26px; margin-bottom: 8px; }
     .forbidden-item p { font-size: 13px; font-weight: 700; }
     .f-tag {
       display: inline-block;
-      background: rgba(255,45,45,0.1);
+      background: rgba(255,45,107,0.1);
       color: var(--neon);
-      border: 1px solid rgba(255,45,45,0.3);
+      border: 1px solid rgba(255,45,107,0.3);
       font-size: 9px; font-weight: 700;
       letter-spacing: 1.5px; padding: 2px 8px;
       border-radius: 2px; margin-top: 6px;
@@ -525,7 +525,7 @@
       </div>
     </div>
     <div class="point-card">
-      <div class="point-icon">😌</div>
+      <div class="point-icon">😄</div>
       <div>
         <h3>불필요한 스트레스 없음</h3>
         <p>서로 배려하는 분위기로 편안하게 즐깁니다.</p>
